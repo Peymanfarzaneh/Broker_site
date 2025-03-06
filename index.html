@@ -5,23 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Broker Website</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
+
+
+
+
 <body>
+    <!-- header -->
     <header>
-        <h1>Welcome to the Broker Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Client Panel</a></li>
-                <li><a href="#">User Profile</a></li>
-                <li><a href="#">Account Management</a></li>
-                <li><a href="#">Contact Us</a></li>
-            </ul>
-        </nav>
+        <div id="header-bar" class="header-bar">
+            <!-- incons in nav-bar -->
+            <div id="sign-in" class="sign-in">
+                <i class="fas fa-sign-in-alt"></i>
+                <i class="fas fa-user-plus"></i>
+            </div>
+            <!-- nav bar -->
+             <nav id="nav-list" class="nav-list">
+                <ul id="menu-list" class="menu-list">
+                    <li class="nav-item"><a href="#">Home</a></li>
+                    <li class="nav-item"><a href="#">Client Panel</a></li>
+                    <li class="nav-item"><a href="#">User Profile</a></li>
+                    <li class="nav-item"><a href="#">Account Management</a></li>
+                    <li class="nav-item"><a href="#">Contact Us</a></li>
+                </ul>
+            </nav>    
+            <img src="images/logo/fx.svg" alt="">
+        </div>
+        
+        <!-- title broker and description -->
+         <h2>X Broker</h2>
+        <p class="desc">Broker X, with regulation from reputable sources and the establishment
+            of a dynamic platform, has provided traders around the world with the 
+            opportunity to execute their trades in the shortest possible time and 
+            with the lowest commission and spread.
+        </p>
     </header>
+
+    <!-- main -->
     <main>
-        <h2>Broker Introduction</h2>
-        <p>information about the broker.</p>
+        <h2>Products</h2>
+        <div class="product" id="product">
+
+            <!-- metaTrader-Card -->
+            <div class="product-item" id="metaTrader-card">
+                <div class="content">
+                    <h3>MetaTrader</h3>
+                    <p>It is also possible to open a trading account on the MetaTrader 4
+                            and MetaTrader 5 platforms in Broker X.
+                            This platform is among the most popular in the world.
+                    </p>
+                </div>
+                <div class="card-img">
+                    <img src="images/metatrader.webp" alt="metaTrader">
+                </div>
+            </div>
+
+            <!-- CTrader-Card -->
+            <div class="product-item" id="CTrader-card">
+                <div class="content">
+                    <h3>
+                        CTrader
+                    </h3>
+                    <p>
+                        You can also create an account on the cTrader platform.
+                        When it comes to popularity, cTrader is always present.
+                    </p>
+                </div>
+                
+                <div class="card-img">
+                    <img src="images/metatrader.webp" alt="metaTrader">
+                </div>
+            </div>
+
+            <!-- Prop-Card -->
+            <div class="product-item" id="prop-card">
+                <div class="content">
+                    <h3>
+                        Prop
+                    </h3>
+                    <p>
+                        It is also possible to get a funded account.
+                        Take advantage of this opportunity for success.
+                    </p>
+                </div>
+                
+                <div class="card-img">
+                    <img src="images/metatrader.webp" alt="metaTrader">
+                </div>
+            </div>
+
+            <!-- CopyTrade-Card -->
+            <div class="product-item" id="copyTrade-card">
+                <div class="content">
+                    <h3>
+                        CopyTrade
+                    </h3>
+                    <p>
+                        The experience of trading alongside market leaders is also available through copy trading.
+                        Enjoy the abundant profits!
+                    </p>
+                </div>
+                
+                <div class="card-img">
+                    <img src="images/metatrader.webp" alt="metaTrader">
+                </div>
+            </div>
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 Broker Website</p>

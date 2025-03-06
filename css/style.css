@@ -1,27 +1,107 @@
 body {
     font-family: Arial, sans-serif;
+    font-size: 16px;
     margin: 0;
     padding: 0;
+    background-color: #e1f0f7;
+    color: rgb(60, 55, 55);
+}
+header{
+    text-align: center;
 }
 
-header {
-    background-color: #4CAF50;
-    color: white;
+/* heder-nav */
+header .header-bar{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    background-color: #f2f2f2;
+    padding: 5px 0;
+}
+header .header-bar .sign-in{
+    width: 10%;
+
+}
+header .header-bar .sign-in i{
+    margin: 5px;
+    padding: 5px;
+    
+}
+header .header-bar .nav-list {
+    width: 85%;
+}
+header .header-bar .nav-list .menu-list{
+    width: 100%;
+    max-height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+header .header-bar .nav-list .nav-item {
+    margin: 2px;
+    padding: 5px;
+    width: 100px;
+    font-size: .8em;
+}
+header .header-bar img{
+    width: 3%;
+    height: 3%;
+}
+/* header title & description */
+header h2{
+    margin: 100px 0 50px;
+    font-size: 3em;
+    color: rgb(21, 14, 14);
+}
+header .desc{
+    width: 300px;
+    margin: auto;
+}
+
+/* main */
+main{
+    /* background-color: aquamarine; */
+    text-align: center
+}
+main h2{
+    margin:25px auto ;
+    color: rgb(21, 14, 14);
+}
+main .product{
+    margin: 30px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+main .product .product-item{
+    width: 300px;
     padding: 15px;
-    text-align: center;
+    margin: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #f2f2f2;
+}
+main .product .product-item .content{
+    height: 40%;
+}
+main .product .product-item h3{
+    margin: 8px;
+}
+main .product .product-item p{
+    text-align: justify;
+    line-height: 20px;
+}
+main .product .product-item .card-img{
+    height: 50%;
 }
 
-nav ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
+main .product .product-item .card-img img{
+    width: 100%;
+    height: 100%;
 }
