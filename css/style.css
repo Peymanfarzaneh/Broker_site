@@ -73,6 +73,7 @@ header .intro{
     flex-wrap: wrap;
     width: 95%;
     margin: 0 auto;
+    height: 500px;
 }
 header .intro .left{
     width: 40%;
@@ -101,6 +102,45 @@ header .intro .right img{
 main{
     text-align: center;
     background-color: #e1f0f7;
+}
+/*ticker-bar  */
+#sec{
+    width: 100%;
+    margin: 20px 0;
+    padding-top: 20px;
+}
+.ticker-bar{
+    width: 100%;
+    min-height: 50px;
+    padding: 5px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+#ticker-bar1{
+    animation: ticker-bar1 100s ease-out infinite;
+}
+#ticker-bar2{
+    animation: ticker-bar2 100s ease-out infinite;
+}
+.ticker-bar .ticker-item{
+    
+    display: inline-block;
+    white-space: nowrap;
+    background-color: #e1f0f7;
+    padding: 15px 5px;
+    border-radius: 15px;
+    border: 2px solid rgb(10, 20, 210);
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: all 0.5s ease-in;
+
+}
+.ticker-item:hover{
+    background-color: rgb(10, 20, 210);
+    color: white;
 }
 /* info aboute product */
 main .option{
@@ -133,7 +173,6 @@ main .option .option-item .span-value{
     flex-wrap: wrap;
     border-top-left-radius:30px;
     border-top-right-radius:30px;
-    box-shadow: 0 -2px 10px 0 rgb(114, 194, 248);
 }
 .start .left{
     width: 40%;
@@ -230,6 +269,7 @@ main .product .product-item{
     background-color: #f2f2f2;
     position: relative;
     transition: all 0.3s ease-in;
+
 }
 main .product .product-item:hover{
     box-shadow: 0 0 20px 2px rgb(175, 175, 175);
@@ -386,4 +426,18 @@ footer .icons{
 .icons i{
     margin: 8px;
     font-size: 1.5em;
+}
+
+
+/* animation style */
+
+/* button */
+.hidden {
+    opacity: 0;
+    transform: translateY(20px); 
+    transition: all 1s ease;
+}
+.visible {
+    opacity: 1;
+    transform: translateY(0);
 }

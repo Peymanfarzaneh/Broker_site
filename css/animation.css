@@ -1,0 +1,12 @@
+/* animation for  ticker-bar*/
+@keyframes ticker-bar1 {
+  0% { transform: translateX(100%); }
+  50%{ transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+@keyframes ticker-bar2 {
+  0% { transform: translateX(-100%); }
+  50%{ transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+

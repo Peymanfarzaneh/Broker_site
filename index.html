@@ -6,7 +6,9 @@
     <title>X-PRO Broker</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
 </head>
 <body>
     <!-- header -->
@@ -15,21 +17,21 @@
      <div id="header-bar" class="header-bar">
             <!-- incons in nav-bar -->
             <div id="sign-in" class="sign-in">
-                <a href="">
+                <a href="htmlPages/login.html">
                     <i class="fas fa-sign-in-alt"></i>
                 </a>
-                <a href="">
+                <a href="htmlPages/login.html">
                     <i class="fas fa-user-plus"></i>
                 </a>
             </div>
             <!-- nav bar -->
              <nav id="nav-list" class="nav-list">
                 <ul id="menu-list" class="menu-list">
-                    <li class="nav-item"><a href="#">Home</a></li>
-                    <li class="nav-item"><a href="#">Client Panel</a></li>
-                    <li class="nav-item"><a href="#">User Profile</a></li>
-                    <li class="nav-item"><a href="#">Account MG</a></li>
-                    <li class="nav-item"><a href="#">Contact Us</a></li>
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="htmlPages/login.html">Client Panel</a></li>
+                    <li class="nav-item"><a href="htmlPages/login.html">User Profile</a></li>
+                    <li class="nav-item"><a href="htmlPages/login.html">Account MG</a></li>
+                    <li class="nav-item"><a href="htmlPages/about-contact.html">Contact Us</a></li>
                 </ul>
             </nav>    
             <img src="images/logo/fx.svg" loading="lazy" alt="">
@@ -99,6 +101,25 @@
             </div>
         </div>
 
+        <!-- ticker-bar -->
+        <div id="sec">
+            <div id="ticker-bar1" class="ticker-bar">
+                <span class="ticker-item">OIL : 2575.06 $</span>
+                <span class="ticker-item">US30 : 2575.06 $</span>
+                <span class="ticker-item">US100 : 2575.06 $ </span>
+                <span class="ticker-item">BTC : 2575.06 $</span>
+                <span class="ticker-item">ETH : 2575.06 $</span>
+            </div>
+            <div id="ticker-bar2" class="ticker-bar">
+                <span class="ticker-item">Gold : 2575.06 $</span>
+                <span class="ticker-item">EUR : 2575.06 $</span>
+                <span class="ticker-item">GPB : 2575.06 $</span>
+                <span class="ticker-item">JPY : 2575.06 $</span>
+                <span class="ticker-item">AUD : 2575.06 $</span>
+                
+            </div>
+        </div>
+
         <!-- start trade -->
         <div class="start">
             <div class="left">
@@ -116,12 +137,12 @@
                       online forex broker of choice for high volume traders
                       , scalpers and robots.
                 </p>
-                <a href="#">
-                    <button>
+                <a href="htmlPages/login.html">
+                    <button >
                         Start Trading
                     </button>
                 </a>
-                <a href="#">
+                <a href="htmlPages/login.html">
                     <button id="btn1">
                         Try a Free 
                     </button>
@@ -146,14 +167,15 @@
                 types to choose from.
             </p>
         </div>
-        <div class="product" id="product">
+
+        <div class="product" id="product" class="section hidden">
 
             <!-- metaTrader5-Card -->
-            <div class="product-item" id="metaTrader-card">
+            <div class="product-item" id="metaTrader-card" >
                 <div class="content">
                     <h3>MetaTrader5</h3>
-                    <a href="#">
-                        <button >
+                    <a href="htmlPages/login.html">
+                        <button class="hidden">
                             Start Trading
                         </button>
                     </a>
@@ -174,8 +196,8 @@
                     <h3>
                         CTrader
                     </h3>
-                    <a href="#">
-                        <button >
+                    <a href="htmlPages/login.html">
+                        <button class="hidden">
                             Start Trading
                         </button>
                     </a>
@@ -196,8 +218,8 @@
                     <h3>
                         Meta Trader4
                     </h3>
-                    <a href="#">
-                        <button >
+                    <a href="htmlPages/login.html">
+                        <button class="hidden">
                             Start Trading
                         </button>
                     </a>
@@ -218,8 +240,8 @@
                     <h3>
                         Prop
                     </h3>
-                    <a href="#">
-                        <button >
+                    <a href="htmlPages/login.html">
+                        <button class="hidden" >
                             Start Trading
                         </button>
                     </a>
@@ -247,9 +269,11 @@
                 <a href="">Shares </a>and <a href="">ETFs</a> 
                 and experience the global markets at your fingertips.
             </p>
-            <button>
-                Register and start Trading
-            </button>
+            <a href="htmlPages/login.html">
+                <button class="hidden">
+                    Register and start Trading
+                </button>
+            </a>
 
             
          </section>
@@ -273,32 +297,35 @@
                 </p>
                 <p>&copy; 2025 Broker Website</p>
                  <div class="icons">
-                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
-                    <a href=""><i class="fa-brands fa-telegram"></i></a>
-                    <a href=""><i class="fa-brands fa-instagram"></i></a>
-                    <a href=""><i class="fa-brands fa-github"></i></a>
-                    <a href=""><i class="fa-brands fa-x"></i></a>
+                    <a href="https://www.linkedin.com/in/peyman-farzaneh-998549343/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/Peymanfarzaneh"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="https://github.com/Peymanfarzaneh"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Peymanfarzaneh"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/Peymanfarzaneh"><i class="fa-brands fa-x"></i></a>
                     
                 </div>
             </div>
             <div class="right">
                 <div class="X-PRO">
                 <h3> X-PRo</h3>
-                    <a href="">Home</a><a href="">Aboute</a><a href="">Blog</a><a href="">Contact Us</a>
+                    <a href="">Home</a><a href="htmlPages/about-contact.html">Aboute</a><a href="htmlPages/blog.html">Blog</a><a href="htmlPages/about-contact.html">Contact Us</a>
                 </div>
                 <div class="support">
                     <h3> Support</h3>
-                    <a href="">Help</a>
-                    <a href="">Report an issue</a>
+                    <a href="htmlPages/help.html">Help</a>
+                    <a href="htmlPages/help.html">Report an issue</a>
                 </div>
                 <div class="developer">
                     <h3>Developer</h3>
-                    <a href="">Peyman</a>
+                    <a href="https://github.com/Peymanfarzaneh">Peyman</a>
                 </div>
             </div>
+            
         </div>
        
     </footer>
     <script src="JavaScript/App.js"></script>
+    <script src="JavaScript/Animation.js"></script>
+
 </body>
 </html>

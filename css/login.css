@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+body a {
+    color: #577bab;
+    text-decoration: underline;
+}
+.container {
+    width: 400px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(209, 1, 1, 0.1);
+    overflow: hidden;
+    transition: transform 0.6s ease-in-out;
+}
+.form-container {
+    padding:80px 50px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+input:focus {
+    border-color:rgb(10, 20, 210);
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background .5s ease;
+}
+button:hover {
+    background-color: rgb(10, 20, 210);
+}
+
+.forgot-password {
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    padding-left: 12%;
+}
+.signup-container {
+    display: none;
+}
+
+.switch-container {
+    text-align: center;
+    margin-top: 15px;
+}
+.forgot-password-container {
+    display: none;
+}
+#switch-to-signup, #switch-to-login, #back-to-login {
+    cursor: pointer;
+    /* font-weight: bold; */
+    color: #577bab;
+    text-decoration: underline;
+}
+
+#switch-to-signup:hover, #switch-to-login:hover, #back-to-login:hover {
+    text-decoration: underline;
+}

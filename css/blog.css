@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    position: relative;
+
+}
+a{
+    color: #555;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.post {
+    margin-bottom: 20px;
+}
+
+.post-image {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* footer */
+footer{
+    height: 200px;
+    background-color: #f2f2f2;
+    border-top: 1px solid black;
+    padding: 20px;
+}
+footer .links{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:  0 20px;
+
+}
+footer .links .left{
+    width: 30%;
+}
+footer .links .left h1{
+    font-size: 1em;
+}
+footer span{
+    color: rgb(10, 20, 210);
+}
+footer .links .left p{
+    margin: 10px 0;
+}
+footer .right{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+footer .right .X-PRO{
+    display: flex;
+    flex-direction: column;
+
+}
+footer .right .support{
+    display: flex;
+    flex-direction: column;
+}
+footer h3{
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+footer a{
+    margin-bottom: 5px;
+    text-decoration: underline;
+}
+footer .icons{
+    margin-top: 10px;
+}
+.icons i{
+    margin: 8px;
+    font-size: 1.5em;
+}
